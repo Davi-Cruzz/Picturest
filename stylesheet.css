@@ -1,4 +1,4 @@
-/*Confgurações gerais*/
+/***********************Confgurações gerais***********************/
 body{
     padding: 0;
     margin: 0;
@@ -22,7 +22,7 @@ footer{
     position: relative;
     clear: both;
 }
-/*configurações dp menu no topo*/
+/***********************configurações dp menu no topo***********************/
 #menuTopo{
     position: fixed;
     background-color: #000;
@@ -66,7 +66,7 @@ footer{
 }
 #contato:hover{
     color: #ffffff;
-    background-color: #5e5652;
+    background-color: #969696;
     border: 1px solid #ffffff;
     font-size: 21px;
     cursor: pointer;
@@ -78,8 +78,30 @@ body#contato_page #menuTopo a#contato{
     font-size: 21px;
     cursor: text;
 }
+/***********************Pagina contato***********************/
+#area_contato{
+    width: 80vh;
+    height: 35vh;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    position: relative;
+    margin: 200px auto;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#area_contato label{
+    font-size: 25px;
+    display:block;
+    margin: 10px auto;
+}
+#area_contato a{
+    color: #ff9b05;
+}
 
-/*Fundo parallax*/
+/***********************Fundo parallax***********************/
 #fundo_img{
     background: url(./imagens/fotografo.jpg)no-repeat center;
     background-size:contain;
@@ -89,7 +111,7 @@ body#contato_page #menuTopo a#contato{
     margin: auto;
     margin-top: 20vh;
 }
-/*Imagens da página*/
+/***********************Imagens da página***********************/
 .imagem_direita, .imagem_esquerda{
     display: flex;
     width: 70vh;
@@ -108,9 +130,10 @@ body#contato_page #menuTopo a#contato{
     margin-right: 15vh;
     margin-bottom: 50px;
 }
-/*Textos*/
+/***********************Textos do conteúdo***********************/
 .texto_direita, .texto_esquerda{
-    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
     width: 60vh;
     display: flex;
 }
