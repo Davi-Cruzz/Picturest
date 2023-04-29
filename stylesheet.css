@@ -66,7 +66,7 @@ footer{
 }
 /*Fundo parallax*/
 #fundo_img{
-    background: url(../imagens/fotografo.jpg)no-repeat center;
+    background: url(./imagens/fotografo.jpg)no-repeat center;
     background-size:contain;
     background-attachment: fixed;
     width: 90%;
