@@ -16,7 +16,7 @@ footer{
     width: 100%;
     margin: auto;
     margin-top: 5%;
-    height: 80px;
+    height: 3rem;
     text-align: center;
     border-top: 0.5px solid black;
     position: relative;
@@ -31,6 +31,7 @@ footer{
     height: 79px;
     left: 0px;
     top: 0;
+    z-index: 10;
 }
 #logo a{
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
@@ -154,19 +155,31 @@ body#contato_page #menuTopo a#contato{
     text-align: left;
 }
 /***************************telas mobile******************************/
-@media screen and (max-width:980px){
+@media screen and (max-width:720px){
     .texto_direita, .texto_esquerda, .imagem_direita, .imagem_esquerda{
         justify-content: center;
         clear: both;
         margin: auto;
+        margin-left: 1.3rem;
         margin-top: 4rem;
         text-align: justify;
         float:none;
+        font-size: 1.3rem;
     }
-    #contato{
+    .imagem_direita, .imagem_esquerda{
+        width: 20rem;
+    }
+    .conteudo{
+        margin: auto;
+        position: relative;
+    }
+    #contato, body#contato{
         width: 4rem;
-        font-size: 1rem;
         height: 2.2rem;
-        align-items: center;
+        padding-left: 1%;
+    }
+    #area_contato{
+        height: 20rem;
+        width: 15rem;
     }
 }
